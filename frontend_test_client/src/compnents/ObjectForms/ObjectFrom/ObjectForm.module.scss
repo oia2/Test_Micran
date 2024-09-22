@@ -1,0 +1,95 @@
+.form {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    & label {
+        display: inline-block;
+        width: 95px;
+        font-size: 18px;
+    
+        margin-right: 8px;
+    }
+    & h3 {
+      font-size: 21px;
+      text-align: center;
+      margin-bottom: 18px;
+    }
+}
+
+.form__field {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.field__number {
+    padding: 4px;
+    width: 55px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f9;
+    outline: none;
+}
+
+.field__name {
+    border: 1px;
+    font-size: 18px;
+    padding: 4px;
+    width: 198px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f9;
+    outline: none;
+}
+
+.field__select {
+    font-size: 18px;
+    padding: 4px 0;
+    width: 198px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f9;
+    outline: none;
+}
+
+.form__field_text {
+    display: flex;
+    justify-content: start;
+}
+
+.form__buttons {
+    margin: 18px auto 0 auto;
+    & button {
+        padding: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        
+    }
+}
+
+.button__save {
+    color: #fff;
+    background-color: #05c3de;
+    margin-right: 12px;
+}   
+
+.button__delete {
+    color: #fff;
+    background-color: #343640;
+}
+
+.field__description {
+    font-size: 18px;
+    padding: 4px;
+    width: 198px;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f9;
+    outline: none ;
+    resize: none;
+}
+
+
+.error {
+    outline: 1px solid red;
+    background-color: #ffe6e6;
+}

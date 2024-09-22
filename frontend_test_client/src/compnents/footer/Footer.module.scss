@@ -1,0 +1,27 @@
+.footer {
+    background-color: #343640;
+    margin-top: 44px;
+}
+
+.footer__container {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    padding: 24px 12px;
+    align-items: center;
+    & > img {
+        position: absolute;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    } 
+}   
+
+.footer__text {
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+}

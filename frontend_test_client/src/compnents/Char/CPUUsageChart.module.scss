@@ -1,0 +1,12 @@
+.char {
+    max-width: 800px;
+    margin: 90px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.char__title {
+    margin-bottom: 24px;
+    font-weight: 600;
+}
